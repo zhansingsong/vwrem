@@ -9,7 +9,7 @@
 我们都知道 **rem** 是参考 HTML 元素的 `font-size` 来计算大小。而 **vw** 是参考 `viewport` 大小进行计算。如果将 HTML 的 `font-size` 的大小设置为 `vw`，让其随着 `viewport` 的大小变化而变化。再结合 **rem** 布局方式，这样不仅能达到自适应布局目的，而且还能控制`max-width`, `min-width`。
 
 ```css
-HTML {
+html {
   font-size: 10vw;
 }
 ```
