@@ -1,0 +1,16 @@
+{
+  "name": "vwrem",
+  "version": "1.0.0",
+  "description": "a mobile responsive design solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vw",
+    "rem",
+    "MRD"
+  ],
+  "author": "singsong",
+  "license": "MIT"
+}
