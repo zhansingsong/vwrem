@@ -18,7 +18,7 @@ html {
 
 ## 设计
 
-本方案，首先会检测浏览器是否支持 `vw`，如果支持结合 `MAX_WIDTH`、`MIN_WIDTH` 参数来设置 HTML 元素的 `font-size`。反之，则模拟 `vw` 工作方式。
+本方案，首先会检测浏览器是否支持 `vw`。如果支持会结合 `MAX_WIDTH`、`MIN_WIDTH` 参数来设置 HTML 元素的 `font-size`。反之，则模拟 `vw` 工作方式。
 
 ## 使用
 - 将代码直接引入 `<head></head>`.
