@@ -28,7 +28,7 @@
     } else if (innerWidth < MIN_WIDTH) {
       fontSize = MIN_WIDTH / division + 'px';
     } else {
-      fontSize = win.__is_vw__ ? '10vw' : innerWidth / division + 'px';
+      fontSize = win.__is_vw__ ? division + 'vw' : innerWidth / division + 'px';
     }
     document.documentElement.style.fontSize = fontSize;
   };
