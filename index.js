@@ -19,6 +19,18 @@
     docElement.removeChild(foolElement);
   };
   checkVwUnit();
+  
+  var dpr = win.devicePixelRatio || 1;
+  // adjust body font size
+  function setBodyFontSize () {
+    if (document.body) {
+      document.body.style.fontSize = (12 * dpr) + 'px';
+    }
+    else {
+      document.addEventListener('DOMContentLoaded', setBodyFontSize);
+    }
+  }
+  setBodyFontSize();
 
   var fontSize;
   var fitCB = function() {
